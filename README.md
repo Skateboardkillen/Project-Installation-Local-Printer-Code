@@ -52,4 +52,7 @@ export PRINTER_SECRET=<same value set in Vercel's env vars>
 python3 poll.py
 ```
 
+PRINTER_SECRET=printersecretyeahsuperspecialstring1029
+
+
 Polls the deployed web app for queued print jobs and prints each one on the BLE printer, falling back to the Epson M244A over USB if the BLE printer fails.
